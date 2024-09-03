@@ -1,0 +1,77 @@
+.page{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.middleDiv {
+    padding: 0 10%;
+    height: 90vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv {
+    height: fit-content;
+    width: 70%;
+}
+
+.fieldName{
+    height: 40px;
+    font-size: 120%;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    font-weight: 500;
+}
+
+.inputField{
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 40px;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 8px;
+    color: white;
+    padding-left: 20px;
+}
+
+.inputField:focus , .inputField:focus-visible{
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid grey;
+    border-radius: 8px;
+    color: white;
+}
+
+.text3{
+    padding-top: 30px;
+    font-size: 1rem;
+}
+
+.text3 .link{
+    color: rgb(207, 14, 255);
+}
+
+@media (max-width: 768px) {
+    .middleDiv{
+        padding: 50px;
+        width: 100vw;
+    }
+    .formDiv{
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .middleDiv{
+        width: 70vw;
+    }
+    .formDiv{
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}

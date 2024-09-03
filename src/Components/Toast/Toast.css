@@ -1,0 +1,17 @@
+.toastCard{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid grey;
+    border-radius: 8px;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}

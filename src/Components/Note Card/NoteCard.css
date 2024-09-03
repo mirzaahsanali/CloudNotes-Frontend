@@ -1,0 +1,82 @@
+.noteCard {
+    height: 20vh;
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+}
+
+.noteCard .cardTop {
+    height: 30%;
+    /* background-color: green; */
+    display: flex;
+    background-color:  rgba(255, 255, 255, 0.1);
+
+}
+
+.noteCard .noteTitle{
+    overflow: hidden;
+    font-size: 120%;
+    width: 80%;
+    /* background-color: rgb(255, 0, 0); */
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.noteCard .noteIcons{
+    font-size: 120%;
+    width: fit-content;
+    /* background-color: blue; */
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.noteCard .noteIcons i{
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+.noteCard .noteIcons i:hover , .noteCard .noteIcons i:active{
+    transition: 0.1s ease-in-out;
+    color:  rgb(207, 14, 255);
+    cursor: pointer;
+}
+
+
+.noteCard .cardMid{
+    font-size: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    color:  rgba(255, 255, 255, 0.5);
+    background-color:  rgba(255, 255, 255, 0.05);
+
+    /* background-color: green; */
+}
+.noteCard .cardBottom {
+    font-size: 120%;
+    padding-left: 10px;
+    height: 50%;
+    color:  rgba(255, 255, 255, 0.8);
+
+
+    /* background-color: pink; */
+}
+
+
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .noteCard{
+        height: 12vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+}

@@ -1,0 +1,19 @@
+
+
+@media (max-width: 768px) {
+    .UserNotesDiv {
+        width: 90vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .UserNotesDiv {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .UserNotesDiv {
+        width: 70vw;
+    }
+}

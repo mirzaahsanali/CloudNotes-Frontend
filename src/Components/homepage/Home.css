@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 10% ;
+}
+
+.text2{
+    font-size: 150%;
+    padding-top: 20px ;
+    padding-bottom: 30px;
+}
+
+.button{
+    background-color: rgb(207, 14, 255);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: 600;
+    border: 0px;
+    width: 200px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button:hover , .button:active{
+    color: rgb(207, 14, 255);
+    background-color: white;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0px 0px 20px rgb(207, 14, 255);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .mainDiv{
+        width: 100vw;
+        margin: 0;
+        padding: 5%;
+    }
+    .text1{
+        font-size: 3rem;
+        font-weight: bolder
+    }
+    
+    .button{
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mainDiv{
+        width: 80vw;
+    }
+    .text1{
+        font-size: 4rem;
+        font-weight: bolder
+    }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+    .mainDiv{
+        width: 50vw;
+    }
+    .text1{
+        font-size: 6rem;
+        font-weight: bolder
+    }
+}
